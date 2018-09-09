@@ -225,6 +225,11 @@ img {
   object-fit: cover;
 }
 
+#gem{
+	display: none;
+	position: fixed:
+}
+
 /*BILLEDER*/
 
 .billede {
