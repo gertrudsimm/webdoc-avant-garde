@@ -133,9 +133,6 @@ window.addEventListener("scroll",function(){
     window.addEventListener("scroll",function(){
     $('#bilet').css('opacity', '' + scroll - 0.8);
       }, false);
-   //bil.style.opacity = "" + scroll + 'px';
-   //bil.classList.add('rul-ind');
-
   }
 
 },false);
