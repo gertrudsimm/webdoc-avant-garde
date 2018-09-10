@@ -405,6 +405,7 @@ window.addEventListener("scroll",function(){
   }
   else {
     target.classList.remove('rul-ind');
+    target.pause();
   }
 },false);
 
