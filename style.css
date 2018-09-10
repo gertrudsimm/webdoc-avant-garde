@@ -440,12 +440,13 @@ img {
 background: #fff;
 opacity: 1;
 transition: 1s;
-height: 400vh;
+height: 450vh;
 }
+
+
 
 #thirdwrap{
 	background: #fff;
-	padding-bottom: 80vh;
 	height: 150vh;
 	width: 100%
 }
@@ -477,7 +478,6 @@ height: 400vh;
 
 
 #btrewrap{
-	padding-bottom: 80vh;
 	height: 140vh;
 	width: 100%
 }
@@ -500,12 +500,12 @@ height: 400vh;
 /*LAG-SECTION*/
 
 #fourth{
-height: 300vh;
+height: 250vh;
 background: #fff;
 }
 
 #bfourth{
-	height: 300vh;
+	height: 200vh;
 }
 
 #filler{
@@ -518,6 +518,7 @@ background: #fff;
 	left: 25%;
 	width: 50%;
 	opacity: 0;
+	transition: 1s;
 }
 
 #lag1.rul-ind{
@@ -623,8 +624,18 @@ img {
 
 
 #first{
-	height: 700vh;
+	height: 575vh;
 }
+
+#wrapOne{
+	height: 275vh
+}
+
+.uddyb p{
+	right: 33.33%;
+}
+
+
 
 #nedet{
 	top: 25%;
@@ -666,13 +677,33 @@ img {
 			left: 33.33%;
 		}
 
+		#third{
+			height: 200vh;
+		}
+
+		#thirdwrap{
+			height: 120vh;
+		}
+
+		#fourth{
+		height: 250vh;
+		}
+
+		#bfourth{
+			height: 70;
+		}
+
+		#filler{
+			height: 10vh;
+		}
+
 		#opslag h1{
-			font-size: 6em;
+			font-size: 4.5em;
 			left: 0;
 		}
 
 		#opslag p{
-			font-size: 3em;
+			font-size: 1.5em;
 			line-height: 1em;
 			width: 90%;
 		}
@@ -686,25 +717,35 @@ img {
 			transition: 1s;
 			margin: 0;
 			margin-left: 5%;
-			margin-right: 5%;
+			margin-right: 10%;
 		}
 
 
 		#rul p{
-			font-size: 3em;
-			margin-top: 7%;
+			font-size: 2em;
+			margin-top: 10%;
 			margin-bottom: 5%;
 
 		}
 
 		#rul{
 			text-align: right;
+			width: 80%;
+			margin-left: 10%;
+			margin-top: 5%;
 		}
+
+
 
 		#lag1{
 
 			width: 25%;
 			transform: translate(80%,-10%);
+		}
+
+		#btrewrap{
+			height: 30vh;
+
 		}
 
 		fith.citat{
@@ -740,6 +781,10 @@ img {
 	article {
 		margin-left: 30%;
 		margin-right: 30%;
+	}
+
+	#filler{
+		height: 50vh;
 	}
 
 	#img-wrapper {

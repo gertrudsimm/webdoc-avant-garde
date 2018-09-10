@@ -339,7 +339,7 @@ window.addEventListener("scroll",function(){
 
 window.addEventListener("scroll",function(){
   var bil = document.getElementById('lag1');
-  var wrap = document.getElementById('fourth');
+  var wrap = document.getElementById('bfourth');
   var x = wrap.offsetHeight;
   var y = wrap.offsetTop;
   var z =  x + y;
