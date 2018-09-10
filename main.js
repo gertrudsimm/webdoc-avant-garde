@@ -402,11 +402,11 @@ window.addEventListener("scroll",function(){
   if((window.pageYOffset > y) && (window.pageYOffset < (y + x - 500 ))){
    target.classList.add('rul-ind');
    //console.log('VIRKER')
-  }
-  else {
+ }  else {
     target.classList.remove('rul-ind');
     target.pause();
   }
+
 },false);
 
 
